@@ -1,0 +1,42 @@
+
+
+@font-face{
+  font-family: "Montserratb";
+  src: local("Montserratb"), url('../../assets/Montserrat/Montserrat-Bold.ttf') format("truetype");
+}
+@font-face{
+  font-family: "Montserratl";
+  src: local("Montserratl"), url('../../assets/Montserrat/Montserrat-Italic.ttf') format("truetype");
+}
+
+.row{
+  margin-right: 0%;
+}
+#back{
+  background-image: url("../../assets/100.jpg");
+  width: 100%;
+  height: 100ch;
+  overflow: hidden;
+}
+h1{
+  color: #0b5ed7;
+  font-family: Montserratb;
+  margin-left: 100px;
+}
+p{
+  font-family:Montserratl ;
+  position: relative;
+  left: 500px;
+  bottom: 550px;
+  padding-left: 25px;
+  font-weight: 600;
+}
+#sl{
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+}
+img{
+  width: 500px;
+  height: 550px;
+}
